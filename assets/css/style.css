@@ -1,12 +1,17 @@
 header {
-    background: url(../images/bg.jpg);
+    background: url(../images/technology.jpg);
     background-size: cover;
     background-position: center;
-    min-height: 1000px;
+    min-height: 500px;
+}
+
+.section {
+    padding-top: 4vw;
+    padding-bottom: 4vw;
 }
 
 @media screen and (max-width: 670px){
     header {
-        min-height: 500px;
+        min-height: 250px;
     }
 }
