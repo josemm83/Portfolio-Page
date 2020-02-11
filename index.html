@@ -19,10 +19,11 @@
                     <a href="#" data-target="slide-out" class="sidenav-trigger">
                         <i class="material-icons">menu</i>
                     </a>
-                    <ul class="right  hide-on-med-and-down">
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">Contact</a></li>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </nav>
@@ -42,13 +43,14 @@
                     </div>
                 </li>
                 <li><div class="divider"></div></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </header>
 
-        <section class="container section" id="photos">
+        <section class="container section scrollspy" id="portfolio">
             <h2 class="center-align indigo-text text-darken-3">Fun and Games Area</h2>
             <div class="row">
                 <div class="col s12 l4">
@@ -71,7 +73,7 @@
             </div>
             <div class="row">
                 <div class="col s12 l4">
-                    <img src="assets/images/coding.jpg" alt="" class="responsive-img">
+                    <img src="assets/images/future.jpg" alt="" class="responsive-img">
                 </div>
                 <div class="col s12 l6">
                     <h3 class="teal-text text-darken-4">Word Guess Game</h3>
@@ -83,20 +85,43 @@
 
         <div class="parallax-container">
             <div class="parallax">
-                <img src="assets/images/future.jpg">
+                <img src="assets/images/coding.jpg">
             </div>
         </div>
 
-        <service class="container section" id="services">
+        <service class="container section scrollspy" id="about">
             <div class="row">
                 <div class="col s12 l4">
-                    <h2 class="teal-text text-darken-2">What I do....</h2>
-                    <p>Currently I am working as an apartment maintenance technician. 
+                    <h2 class="teal-text text-darken-3">What I do....</h2>
+                    <p class="teal-text text-darken-2">Currently I am working as an apartment maintenance technician. 
                         I enjoy watching movies and playing video games in my spare time. My favorite movie series
                         is Star Wars.</p>
                 </div>
                 <div class="col s2 l6 offset-l2">
-                    
+                  <ul class="tabs">
+                      <li class="tab col s6">
+                          <a href="#star-wars" class="teal-text text-darken-3">Favorite Star Wars Movie</a>
+                      </li>
+                      <li class="tab col s6">
+                        <a href="#video-game" class="teal-text text-darken-3">Favorite Video Game</a>
+                    </li>
+                  </ul> 
+                    <div class="col s12" id="video-game">
+                        <p class="flow-text teal-text text-darken-2">LEGEND OF ZELDA: OCARINA OF TIME</p>
+                        <p class="teal-text text-darken-1">Ocarina of Time is set in the fictional kingdom of Hyrule, 
+                                the setting of most Legend of Zelda games, and takes place before all previous games in the series. 
+                                Hyrule Field serves as the central hub connected to several outlying areas with diverse topography and 
+                                the races of Hyrule.</p>
+                        <img src="assets/images/zelda.png" class="responsive-img imgs">
+                    </div>
+                    <div class="col s12" id="star-wars">
+                        <p class="flow-text teal-text text-darken-2">STAR WARS: THE EMPIRE STRIKES BACK</p>
+                        <p class="teal-text text-darken-1"> Set three years after the events of the first film, the Galactic Empire, 
+                                under the leadership of Darth Vader and the Emperor, pursues Luke Skywalker and the rest of the Rebel Alliance. 
+                                While Vader relentlessly pursues Luke's friends—Han Solo, Princess Leia, Chewbacca, and C-3PO—Luke 
+                                studies the Force under Jedi Master Yoda</p>
+                        <img src="assets/images/star-wars.jpg" class="responsive-img imgs">
+                    </div>
                 </div>
             </div>
         </service>
@@ -106,6 +131,72 @@
                 <img src="assets/images/code.jpeg">
             </div>
         </div>
+        <section class="section container scrollspy" id="services">
+            <div class="row">
+                <div class="col s12 l5">
+                    <h2 class="teal-text text-darken-4">Service information</h2>
+                    <p class="teal-text text-darken-2">If you would like to get ahold of me, please provide your name, email, and a message so that I may better assist you.</p>
+                    <p class="teal-text text-darken-2">Thank you!</p>
+                </div>
+                <div class="col s12 l5 offset-l2">
+                    <form action="">
+                        <div class="input-field">
+                            <i class="fas fa-user-alt prefix"></i>
+                            <textarea id="name" class="materialize-textarea"></textarea>
+                            <label for="name">Your name</label>
+                        </div>
+                        <div class="input-field">
+                            <i class="material-icons prefix">email</i>
+                            <input type="email" id="email">
+                            <label for="email">Your email</label>
+                        </div>
+                        <div class="input-field">
+                            <i class="material-icons prefix">message</i>
+                            <textarea id="message" class="materialize-textarea"></textarea>
+                            <label for="message">Your message</label>
+                        </div>
+                        <div class="input-field">
+                            <i class="far fa-calendar-alt prefix"></i>
+                            <input type="text" id="date" class="datepicker">
+                            <label for="date">Choose a date to be contacted...</label>
+                        </div>
+                        <div class="input-field center">
+                            <button class="btn">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <footer class="page-footer grey darken-3 scrollspy" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 l6">
+                        <h5>About Me</h5>
+                    </div>
+                    <div class="col s12 l4 offset-l2">
+                        <h5>Connect</h5>
+                        <ul>
+                            <li>
+                                <i class="fab fa-facebook prefix"></i>
+                                <a href="#" class="grey-text text-lighten-3">Facebook</a>
+                            </li>
+                            <li>
+                                <i class="fab fa-instagram prefix"></i>
+                                <a href="#" class="grey-text text-lighten-3">Instagram</a>
+                            </li>
+                            <li>
+                                <i class="fab fa-linkedin prefix"></i>
+                                <a href="#" class="grey-text text-lighten-3">LinkedIn</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright grey darken-4">
+                <div class="container center-align">&copy;2020 Jose Mancha</div>
+            </div>
+        </footer>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>

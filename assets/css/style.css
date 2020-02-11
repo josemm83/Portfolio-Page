@@ -10,6 +10,22 @@ header {
     padding-bottom: 4vw;
 }
 
+.imgs {
+    width: 250px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tabs .indicator{
+    background-color: red;
+}
+
+.tabs .tab a:focus, .tabs .tab a:focus.active{
+    background: transparent;
+}
+
 @media screen and (max-width: 670px){
     header {
         min-height: 250px;
