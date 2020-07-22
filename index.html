@@ -18,7 +18,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-    <title>Jose's Portfolio Website</title>
+    <title>Jose's Portfolio Site</title>
   </head>
 
   <body>
@@ -30,10 +30,10 @@
             <i class="material-icons">menu</i>
           </a>
           <ul class="right hide-on-med-and-down">
-            <li><a href="#about">About</a></li>
+            <!-- <li><a href="#info">Info</a></li> -->
             <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#services">Services</a></li>
             <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
           </ul>
         </div>
       </nav>
@@ -58,10 +58,10 @@
           </div>
         </li>
         <li><div class="divider"></div></li>
-        <li><a href="#about">About</a></li>
+        <!-- <li><a href="#info">Info</a></li> -->
         <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#services">Services</a></li>
         <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
       </ul>
     </header>
 
@@ -86,7 +86,7 @@
       </div>
       <div class="row">
         <div class="col s12 l4 push-l7 offset-l1">
-          <a href="https://josemm83.github.io/unit-4-game/"
+          <a href="https://memclickygame.herokuapp.com/"
             ><img
               src="assets/images/dragon.jpg"
               alt="battleGame"
@@ -94,17 +94,17 @@
           /></a>
         </div>
         <div class="col s12 l6 pull-l5 right-align offset-l1">
-          <h2 class="teal-text text-darken-4">Star Wars Battle Game</h2>
+          <h2 class="teal-text text-darken-4">Star Wars Memory Game</h2>
           <p class="teal-text text-darken-2">
-            Select a character to battle your opponents with, each time you
-            attack your power increases; win and become the strongest force in
-            the galaxy. Lose and you will become one with the force!
+            This is a game that will test your memory skills. Do not touch the
+            same picture more than once or you will lose! May the force be with
+            you...
           </p>
         </div>
       </div>
       <div class="row">
         <div class="col s12 l4">
-          <a href="https://josemm83.github.io/Word-Guess-Game/"
+          <a href="https://github.com/josemm83/Liri-Node-App"
             ><img
               src="assets/images/future.jpg"
               alt="guessGame"
@@ -112,10 +112,10 @@
           /></a>
         </div>
         <div class="col s12 l6">
-          <h3 class="teal-text text-darken-4">Word Guess Game</h3>
+          <h3 class="teal-text text-darken-4">Liri Node App</h3>
           <p class="teal-text text-darken-2">
-            Guess the Star Wars character word that is displayed on the screen.
-            How many can you guess correctly...
+            Backend application program that will correspond to the users choice
+            and search for the given information given.
           </p>
         </div>
       </div>
@@ -193,10 +193,10 @@
         <img src="assets/images/coding.jpg" />
       </div>
     </div>
-    <section class="section container scrollspy" id="services">
+    <!-- <section class="section container scrollspy" id="contact">
       <div class="row">
         <div class="col s12 l5">
-          <h2 class="teal-text text-darken-4">Service information</h2>
+          <h2 class="teal-text text-darken-4">Contact Me</h2>
           <p class="teal-text text-darken-2">
             If you would like to get ahold of me, please provide your name,
             email, and a message so that I may better assist you.
@@ -207,31 +207,39 @@
           <form action="">
             <div class="input-field">
               <i class="fas fa-user-alt prefix"></i>
-              <textarea id="name" class="materialize-textarea"></textarea>
-              <label for="name">Your name</label>
+              <textarea
+                id="name"
+                class="materialize-textarea"
+                type="text"
+              ></textarea>
+              <label for="name">Name</label>
             </div>
             <div class="input-field">
               <i class="material-icons prefix">email</i>
-              <input type="email" id="email" />
-              <label for="email">Your email</label>
+              <input type="email" id="email" name="email" class="validate" />
+              <label for="email">Email</label>
             </div>
             <div class="input-field">
               <i class="material-icons prefix">message</i>
-              <textarea id="message" class="materialize-textarea"></textarea>
-              <label for="message">Your message</label>
-            </div>
-            <div class="input-field">
-              <i class="far fa-calendar-alt prefix"></i>
-              <input type="text" id="date" class="datepicker" />
-              <label for="date">Choose a date to be contacted...</label>
+              <textarea
+                id="message"
+                name="message"
+                class="materialize-textarea"
+              ></textarea>
+              <label for="message">Message</label>
             </div>
             <div class="input-field center">
-              <button class="btn indigo">Submit</button>
+              <input
+                class="btn indigo"
+                type="submit"
+                name="submit"
+                value="Submit"
+              />
             </div>
           </form>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <footer class="page-footer grey darken-3 scrollspy" id="contact">
       <div class="container">
@@ -245,8 +253,12 @@
             </p>
           </div>
           <div class="col s12 l4 offset-l2">
-            <h5>Connect</h5>
+            <h5>Contact</h5>
             <ul>
+              <li>
+                <i class="far fa-envelope prefix"></i>
+                josemmancha@icloud.com
+              </li>
               <li>
                 <i class="fab fa-facebook-square prefix"></i>
                 <a
