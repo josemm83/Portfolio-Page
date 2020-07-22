@@ -1,6 +1,12 @@
-# Portfolio-Page
-Updated my portfolio page using Materialize. Desktop, tablet, and phone friendly.
-Try the website on a desktop and see that magic with parallax.
-Tabs also will activate depending on what you choose.
-Links to the games and programs have been added, just click on the pictures and watch the sites load.
-All links work under contact, email is currently disabled.
+# My Portfolio-Page
+To view Click Here!
+This is my portfolio page using Materialize. 
+Works with all screen sizes from desktop, tablets, or phones.
+
+
+
+# Technologies used
+Materialize
+Html
+CSS
+Javascript
