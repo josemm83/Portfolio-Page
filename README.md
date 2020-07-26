@@ -14,6 +14,17 @@ SideNav works on smaller screens and creates links to sections.
 
 Tab works inside the about section where the user can click on the given links and text will appear and disappear.
 
+## Screenshots
+![Loading page]()
+![About me]()
+![Profile]()
+![Interests]()
+![Contact]()
+
+## Mobile version
+![Load Page]()
+![Selection]()
+
 ## Technologies used
 - Materialize
 - Html
