@@ -4,15 +4,15 @@ This is my portfolio page using Materialize.
 Works with all screen sizes from desktop, tablets, or phones.
 
 ## How the magic works
-With Materialize some features are used such as Parallax, Scrollspy, SideNav, Tab
+With Materialize some features are used such as Parallax, Scrollspy, SideNav, Tab.
 
 Parallax gives the user an experience with an image by giving it an effect.
 
-Scrollspy allows the users to go to the section that is clicked such as Portfolio, Contact, About 
+Scrollspy allows the users to go to the section that is clicked such as Portfolio, Contact, About. 
 
-SideNav works on smaller screens and creates links to sections
+SideNav works on smaller screens and creates links to sections.
 
-Tab works inside the about section where the user can click on the given links and text will appear and disappear
+Tab works inside the about section where the user can click on the given links and text will appear and disappear.
 
 ## Technologies used
 - Materialize
