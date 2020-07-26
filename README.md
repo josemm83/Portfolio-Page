@@ -15,15 +15,15 @@ SideNav works on smaller screens and creates links to sections.
 Tab works inside the about section where the user can click on the given links and text will appear and disappear.
 
 ## Screenshots
-![Loading page]()
-![About me]()
-![Profile]()
-![Interests]()
-![Contact]()
+![Loading page](https://github.com/josemm83/Portfolio-Page/blob/master/profile.jpg)
+![About me](https://github.com/josemm83/Portfolio-Page/blob/master/profile5.jpg)
+![Profile](https://github.com/josemm83/Portfolio-Page/blob/master/profile2.jpg)
+![Interests](https://github.com/josemm83/Portfolio-Page/blob/master/profile3.jpg)
+![Contact](https://github.com/josemm83/Portfolio-Page/blob/master/profile4.jpg)
 
 ## Mobile version
-![Load Page]()
-![Selection]()
+![Load Page](https://github.com/josemm83/Portfolio-Page/blob/master/mobile.jpg)
+![Selection](https://github.com/josemm83/Portfolio-Page/blob/master/mobile2.jpg)
 
 ## Technologies used
 - Materialize
