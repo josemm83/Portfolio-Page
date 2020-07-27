@@ -4,8 +4,5 @@ $(document).ready(function () {
   $(".materialboxed").materialbox();
   $(".parallax").parallax();
   $(".tabs").tabs();
-  $(".datepicker").datepicker({
-    disableWeekends: true,
-  });
   $(".scrollspy").scrollSpy();
 });
