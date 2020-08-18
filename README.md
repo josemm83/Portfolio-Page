@@ -2,6 +2,7 @@
 ## To view [Click Here!](https://josemm83.github.io/Portfolio-Page/)
 This is my portfolio page using Materialize. 
 Works with all screen sizes from desktop, tablets, or phones.
+On the apps section just click on the image to advance to the app or page.
 
 ## How the magic works
 With Materialize some features are used such as Parallax, Scrollspy, SideNav, Tab.
@@ -22,8 +23,8 @@ Tab works inside the about section where the user can click on the given links a
 ![Contact](https://github.com/josemm83/Portfolio-Page/blob/master/profile4.jpg)
 
 ## Mobile version
-![Load Page](https://github.com/josemm83/Portfolio-Page/blob/master/mobile.jpg)
-![Selection](https://github.com/josemm83/Portfolio-Page/blob/master/mobile2.jpg)
+![Mobile Page](https://github.com/josemm83/Portfolio-Page/blob/master/mobile.jpg)
+![Mobile Selection](https://github.com/josemm83/Portfolio-Page/blob/master/mobile2.jpg)
 
 ## Technologies used
 - Materialize
